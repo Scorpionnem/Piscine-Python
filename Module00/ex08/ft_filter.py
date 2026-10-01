@@ -1,6 +1,7 @@
 
 def ft_filter(function, list):
-    """Return an iterator yielding those items of iterable \
+    """filter(function or None, iterable) --> filter object\n\n\
+Return an iterator yielding those items of iterable \
 for which function(item)
 is true. If function is None, return the items that are true."""
     if function is None:
