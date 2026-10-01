@@ -11,9 +11,8 @@ def is_int(object: any):
 try:
     if (len(sys.argv) > 2):
         raise AssertionError("more than one argument is provided")
-    if (len(sys.argv) == 2):
-        if (is_int(sys.argv[1]) is False):
-            raise AssertionError("argument is not an integer")
+    if (len(sys.argv) == 2) and (is_int(sys.argv[1]) is False):
+        raise AssertionError("argument is not an integer")
 
     if (len(sys.argv) == 2):
         if ((int(sys.argv[1]) & 1) == 0):

@@ -5,7 +5,7 @@ ft_dict = {"Hello": "titi!"}
 
 ft_list[1] = "World!"
 
-ft_tuple = tuple(("Hello", "France!"))
+ft_tuple = ("Hello", "France!")
 
 ft_set = set({"Hello", "Angouleme!"})
 
